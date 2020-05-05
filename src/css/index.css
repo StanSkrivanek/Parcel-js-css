@@ -1,0 +1,33 @@
+/* imported modules */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+@import "./_module.css";
+
+/* GLOBAL styles */
+:root {
+  --color-global: #f3f2d3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(20, 147, 220);
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+main {
+  max-width: 64rem;
+  margin: 0 auto;
+  border: 1x solid black;
+}
+p {
+  color: var(--color-global);
+  margin-top: 3rem;
+}
+.center {
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0;
+}

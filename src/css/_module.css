@@ -1,0 +1,10 @@
+/* LOCAL styles */
+h1,h2{
+  color: rgb(255, 227, 102);
+  line-height: 1.4;
+  text-align: center;
+}
+
+h2{
+  color: rgb(32, 49, 107);
+}

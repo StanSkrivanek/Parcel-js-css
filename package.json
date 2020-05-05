@@ -1,0 +1,30 @@
+{
+  "name": "fds-parcel",
+  "version": "1.0.0",
+  "description": "parcel boilerplate",
+  "main": "index.js",
+  "author": "Stan Skrivanek @ FineDiv Studio",
+  "license": "MIT",
+  "scripts": {
+    "clear": "rimraf ./dev && rimraf -rf ./.cache",
+    "dev": "yarn clear && parcel public/index.html --out-dir dev -p 3000 --open FirefoxDeveloperEdition",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./",
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint \"src/**/*.js\" --quiet"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "dependencies": {}
+}
