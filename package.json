@@ -26,5 +26,8 @@
   "browserslist": [
     "last 2 versions"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "muuri": "^0.9.5",
+    "web-animations-js": "^2.3.2"
+  }
 }
